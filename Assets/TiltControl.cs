@@ -5,7 +5,6 @@ using UnityEngine;
 public class TiltControl : MonoBehaviour
 {
     private Touch touch;
-    private Vector2 touchPosition;
     private Quaternion rotationX, rotationZ;
     private float tiltSpeedModifier = 0.1f;
 
